@@ -1,0 +1,55 @@
+.dev-content-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.developer-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* ปรับขนาดขั้นต่ำ */
+    gap: 20px;
+    justify-items: center;
+    margin-bottom: 20px;  
+      
+}
+
+.img-container :hover .developer-img {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+/* Media Query สำหรับหน้าจอเล็ก */
+@media (max-width: 768px) {
+    .developer-img {
+        width: 150px; /* ลดขนาดรูปภาพ */
+        height: 150px;
+    }
+    .img-container {
+        gap: 15px; /* ลดช่องว่าง */
+    }
+}
+
+/* Media Query สำหรับหน้าจอใหญ่มาก */
+@media (min-width: 1200px) {
+    .img-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* เพิ่มขนาดขั้นต่ำ */
+        gap: 30px; /* เพิ่มช่องว่างระหว่างรูป */
+    }
+}
+

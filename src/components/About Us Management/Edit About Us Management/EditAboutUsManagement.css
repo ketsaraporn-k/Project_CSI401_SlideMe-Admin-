@@ -1,0 +1,87 @@
+.edit-about-us-management {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/*   h2 {
+  color: #000000;
+} */
+
+.edit-about-us-management .form-section {
+  background-color: #f0fdf4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 2px solid #66bb6a;
+}
+
+.edit-about-us-management .form-group {
+  margin-bottom: 15px;
+}
+
+/*   label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+} */
+
+.edit-about-us-management input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #c8e6c9;
+  border-radius: 4px;
+}
+
+.edit-about-us-management input[type="file"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.edit-about-us-management .image-preview {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.edit-about-us-management .status-checkbox {
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.edit-about-us-management .save-button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #03D069;
+  color: white;
+}
+
+.edit-about-us-management .cancel-button {
+  background-color: #df1616;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+}
+
+/*   .button-group .save-button, .cancel-button {
+  margin-top: 20px; 
+} */
+
+
+
+.edit-about-us-management .form-check {
+  display: flex;
+  align-items: center; /* จัดแนวกลางแนวตั้ง */
+  margin-bottom: 15px; /* เพิ่มระยะห่างจากปุ่ม */
+}
+
+
