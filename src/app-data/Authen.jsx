@@ -1,7 +1,7 @@
 const users = [
   {
     user: "superadmin",
-    pass: "pass",
+    pass: "passsuperadmin",
     role: "superadmin",
     token: "superadmin",
   },
